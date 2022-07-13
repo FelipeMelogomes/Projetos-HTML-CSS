@@ -1,0 +1,16 @@
+body{
+    background: url(../Imagens/grass-g9807e23de_1920.jpg) no-repeat;
+    background-position: center;
+    width: 400px;
+    height: 300px;
+}
+
+label{
+    color:rgba(white,white,white, 0.4);
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    border-radius: 20px;
+    
+}

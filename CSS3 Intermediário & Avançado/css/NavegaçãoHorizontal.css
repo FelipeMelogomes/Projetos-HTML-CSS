@@ -1,0 +1,81 @@
+/**** Barra de Navegação Vertical ****/
+/*
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    padding: 5px 20px;
+    background: url(../Imagens/seta.png) no-repeat left center;
+}*/
+
+
+/*
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px;
+    background: #f7b600 url(../Imagens/menu.png) no-repeat left bottom;
+}
+
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #FFF;
+}
+
+#home #navegacao .home a, #sobre #navegacao .sobre a, #servicos #navegacao .servicos a {
+    background-position: right bottom;
+    background-color: #f99200;
+    color: #FFF;
+}*/
+
+/**** Barra de navegação Horizontal ****/
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+    background: #159cb0 url(../Imagens/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+ul a {
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: white;
+    background: url(../Imagens/divisor.png) repeat-y left top;
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover{
+    color: #085662;
+    background: #44cade;
+}
+
+#home #navegacao .home a, #sobre #navegacao .sobre a, #servicos #navegacao .servicos a {
+    color: #085662;
+    background: #44cade;
+}
